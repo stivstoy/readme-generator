@@ -20,20 +20,20 @@ ${data.description}
 # Table of Contents
 - [Title](#title)
 - [Description](#Description)
-- [Instalation](#Installation Instructions)
-- Usage
-- Credits
-- license
-- Testing
-- [Questions](#data.questions)
+- [Instalation](#Installation-Instructions)
+- [Usage](#Usage)
+- [Credits](#Credits)
+- [License](#License)
+- [Testing](#Testing)
+- [Questions](#Please-send-questions-about-application-to)
 
 # Installation Instructions
-${data.indatallation}
+${data.installation}
 
 # Usage
 ${data.usage}
 
-#Credits
+# Credits
 ${data.credits}
 
 # License
