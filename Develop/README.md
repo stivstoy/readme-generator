@@ -1,26 +1,26 @@
 
-# Stivstoy
+# Readme
 
 ## Description 
-Is the man
+a nice readme file
 
 ## Table of Contents
-- The man, - the lady, The cat in the hat
+kfjdsk
 
 ## Installation Instruction
 undefined
 
 ## Usage
-jfdksal
+jkdljf;ldfkkd
 
 ## Credits
-- steve - royce - john
+- steve - robert - ben 
 
 ## License
 MIT
 
 ## Testing
-kfs;lj
+jfldksj;lfdasfd;
 
 ## Please send questions about application to:
-jfdksl
+stivsto@hotmail.com
