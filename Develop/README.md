@@ -6,12 +6,12 @@ what up
 # Table of Contents
 - [Title](#title)
 - [Description](#Description)
-- [Instalation](#Installation Instructions)
+- [Instalation](#Installation)
 - Usage
 - Credits
 - license
 - Testing
-- [Questions](#data.questions)
+- [Questions](#Please)
 
 # Installation Instructions
 undefined
