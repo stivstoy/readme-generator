@@ -12,7 +12,7 @@ what a day
 - Credits
 - license
 - Testing
-- [Questions](#Please send questions about application to:)
+- [Questions](#data.questions)
 
 # Installation Instructions
 undefined
