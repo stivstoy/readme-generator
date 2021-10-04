@@ -7,7 +7,7 @@ what up
 - [Title](#title)
 - [Description](#Description)
 - [Instalation](#Installation)
-- [Instalation](#Usage)
+- [Usage](#Usage)
 - Credits
 - license
 - Testing
