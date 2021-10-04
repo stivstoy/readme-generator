@@ -19,7 +19,15 @@ return `
 ${data.description}
 
 ## Table of Contents
-${data.tableContents}
+[- Title](#title)
+- Title
+- Description
+- Instalation
+- Usage
+- Credits
+- license
+- Testing
+- Questions
 
 ## Installation Instruction
 ${data.indatallation}
