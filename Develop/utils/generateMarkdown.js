@@ -43,7 +43,7 @@ ${data.license}
 # Testing
 ${data.test}
 
-# Please send questions about application to:
+# Please send questions about application to
 ${data.questions}
 `;
 }
