@@ -1,26 +1,26 @@
 
-# Readme Generator
+# Stivstoy
 
 ## Description 
-Soome descrition here with some other stuff
+Is the man
 
 ## Table of Contents
-- Description - Installation - Usage - Credits - license - Test - Questions
+- The man, - the lady, The cat in the hat
 
 ## Installation Instruction
 undefined
 
 ## Usage
-Place - in front of line items
+jfdksal
 
 ## Credits
-- steve - john - royce
+- steve - royce - john
 
 ## License
-Community
+MIT
 
 ## Testing
-Run a test
+kfs;lj
 
 ## Please send questions about application to:
-stivstoy@hotmail.com
+jfdksl
