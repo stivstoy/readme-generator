@@ -28,7 +28,7 @@ ${data.description}
 - Testing
 - [Questions](##Questions)
 
-## Installation Instruction
+## Installation Instructions
 ${data.indatallation}
 
 ## Usage
