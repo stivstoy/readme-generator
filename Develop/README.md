@@ -6,7 +6,7 @@ what up
 # Table of Contents
 - [Title](#title)
 - [Description](#Description)
-- [Instalation](#Installation)
+- [Instalation](#Installation-Instuctions)
 - [Usage](#Usage)
 - Credits
 - license
