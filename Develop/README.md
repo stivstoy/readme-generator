@@ -1,8 +1,8 @@
 
-# This is it
+## This is My Application Test
 
 # Description 
-make no mistakes
+An application to create README.md
 
 # Table of Contents
 - [Title](#title)
@@ -15,19 +15,19 @@ make no mistakes
 - [Questions](#Please-send-questions-about-application-to)
 
 # Installation Instructions
-you got it
+install node.js and inquirer
 
 # Usage
-use it to do as you please
+Run in node in gitbash and other stuff
 
 # Credits
-me
+me rob
 
 # License
 MIT
 
 # Testing
-teest
+fjdksl
 
 # Please send questions about application to
-me
+steve
