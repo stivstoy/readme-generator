@@ -12,8 +12,32 @@
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-return `# ${data.title}
+return `
+# ${data.title}
 
+## Description 
+${data.description}
+
+## Table of Contents
+${data.tableContents}
+
+## Installation Instruction
+${data.indatallation}
+
+## Usage
+${data.usage}
+
+## Credits
+${data.credits}
+
+## License
+${data.license}
+
+## Testing
+${data.test}
+
+## Please send questions about application to:
+${data.questions}
 `;
 }
 
