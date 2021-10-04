@@ -11,7 +11,7 @@ what up
 - Credits
 - license
 - Testing
-- [Questions](#Please)
+- [Questions](#Please send questions about application to)
 
 # Installation Instructions
 undefined
