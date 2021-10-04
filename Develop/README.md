@@ -1,8 +1,9 @@
 
-# This is the one
+# This is it
 
 # Description 
-will it work?
+make no mistakes
+
 # Table of Contents
 - [Title](#title)
 - [Description](#Description)
@@ -14,19 +15,19 @@ will it work?
 - [Questions](#Please-send-questions-about-application-to)
 
 # Installation Instructions
-we will see again
+you got it
 
 # Usage
-help me
+use it to do as you please
 
-#Credits
+# Credits
 me
 
 # License
 MIT
 
 # Testing
-fdjskal
+teest
 
 # Please send questions about application to
 me

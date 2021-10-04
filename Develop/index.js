@@ -32,19 +32,6 @@ const generatePage = require('./utils/generateMarkdown');
     },
     {
       type: 'input',
-      name: 'tableContents',
-      message: 'Please enter table of contents (optional)',
-      validate:tableInput => {
-       if (tableInput) {
-      return true;
-        } else {
-      console.log('You need to enter a table of contents!');
-      return false;
-       }
-       }
-    },
-    {
-      type: 'input',
       name: 'installation',
       message: 'Please enter installation insstructions (Required)',
       validate: installationInput => {
