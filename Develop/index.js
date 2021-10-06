@@ -77,7 +77,7 @@ const generatePage = require('./utils/generateMarkdown');
       type: 'list',
       name: 'license',
       message: 'Select license type (Required) ',
-      choices: ['MIT', 'Community', 'GNU GPLv3', 'None']
+      choices: ['MIT', 'ISC', 'GNU GPLv3', 'None']
     },
 
     {
@@ -123,14 +123,5 @@ promptReadme()
   });
 })
 
-
-
-// TODO: Include packages needed for this application
-
-// TODO: Create an array of questions for user input
-
-// TODO: Create a function to write README file
-
-// Function call to initialize app
 
 
