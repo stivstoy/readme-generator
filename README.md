@@ -1,25 +1,25 @@
 
-# README.md Generator
+# README Generator
 
 ## Description 
-An application that creates a README.md file using the command line.
+A README Generator application
 
 ## Table of Contents
 - [Title](#title)
 - [Description](#Description)
-- [Instalation](#Installation-Instructions)
+- [Installation](#Installation-Instructions)
 - [License](#License)
 - [Questions](#Please-send-questions-about-application-to)
 - [Credits](#Credits)
 
 ## Installation Instructions
-your link here
+https://watch.screencastify.com/v/1E4FTAHAuNWRfDQQlama
 
 ## License
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Please send questions about application to
 stivstoy@hotmail.com
 
 ## Credits
-This applicaton was made with love by Steve Hutson
+This application was made with love by Steve Hutson
