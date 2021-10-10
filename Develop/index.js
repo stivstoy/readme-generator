@@ -1,8 +1,10 @@
+// required files
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generatePage = require('./utils/generateMarkdown');
 
-  const promptReadme = readmeData => {
+// prompt title
+const promptReadme = readmeData => {
   return inquirer.prompt([
     {
       type: 'input',
@@ -17,6 +19,7 @@ const generatePage = require('./utils/generateMarkdown');
         }
       }
     },
+    // prompt description
     {
       type: 'input',
       name: 'description',
@@ -30,10 +33,11 @@ const generatePage = require('./utils/generateMarkdown');
         }
       }
     },
+    // prompt installation
     {
       type: 'input',
       name: 'installation',
-      message: 'Please enter installation insstructions (Required)',
+      message: 'Please enter installation instructions (Required)',
       validate: installationInput => {
         if (installationInput) {
           return true;
@@ -43,57 +47,15 @@ const generatePage = require('./utils/generateMarkdown');
         }
       }
     },
-  
-    {
-      type: 'input',
-      name: 'usage',
-      message: 'Provide instructions and examples for use. Include screenshots as needed. (Required)',
-      validate: usageInput => {
-        if (usageInput) {
-          return true;
-        } else {
-          console.log('Provide instructions and examples for use. Include screenshots as needed.');
-          return false;
-        }
-      }
-    },
-
-    {
-      type: 'input',
-      name: 'credits',
-      message: 'List your collaborators, if any, with links to their GitHub profiles. (Required) ',
-      validate: creditsInput => {
-        if (creditsInput) {
-          return true;
-        } else {
-          console.log('List your collaborators, if any, with links to their GitHub profiles.');
-          return false;
-        }
-      }
-    },
-
-
+   
+    // prompt license
     {
       type: 'list',
       name: 'license',
       message: 'Select license type (Required) ',
       choices: ['MIT', 'ISC', 'GNU GPLv3', 'None']
     },
-
-    {
-      type: 'input',
-      name: 'test',
-      message: 'Please enter your tests and examples of to run them.(Required) ',
-      validate: testInput => {
-        if (testInput) {
-          return true;
-        } else {
-          console.log('Please enter your tests and examples of how to run them.');
-          return false;
-        }
-      }
-    },
-
+  // prompt questions
     {
       type: 'input',
       name: 'questions',
@@ -107,21 +69,34 @@ const generatePage = require('./utils/generateMarkdown');
         }
       }
     },
- 
-  
+
+     // prompt credits
+     {
+      type: 'input',
+      name: 'credits',
+      message: 'List your collaborators, if any, with links to their GitHub profiles. (Required) ',
+      validate: creditsInput => {
+        if (creditsInput) {
+          return true;
+        } else {
+          console.log('List yourself and any collaborators');
+          return false;
+        }
+      }
+    },
+
   ])
 };
-
+// Construct README file
 promptReadme()
-.then(readmeData => {
-  console.log(readmeData);
-  // will be uncommented in lesson 4
-  const pageReadme = generatePage(readmeData);
-  fs.writeFile('./README.md', pageReadme, err => {
-   if (err) throw new Error(err);
-  console.log('Page created! Check out README.md in this directory to see it!');
-  });
-})
+  .then(readmeData => {
+    console.log(readmeData);
+    const pageReadme = generatePage(readmeData);
+    fs.writeFile('./README.md', pageReadme, err => {
+      if (err) throw new Error(err);
+      console.log('Page created! Check out README.md in this directory to see it!');
+    });
+  })
 
 
 

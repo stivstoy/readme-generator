@@ -31,29 +31,21 @@ ${data.description}
 - [Title](#title)
 - [Description](#Description)
 - [Instalation](#Installation-Instructions)
-- [Usage](#Usage)
-- [Credits](#Credits)
 - [License](#License)
-- [Testing](#Testing)
 - [Questions](#Please-send-questions-about-application-to)
+- [Credits](#Credits)
 
 ## Installation Instructions
 ${data.installation}
 
-## Usage
-${data.usage}
-
-## Credits
-${data.credits}
-
 ## License
 ${license(data)}
 
-## Testing
-${data.test}
-
 ## Please send questions about application to
 ${data.questions}
+
+## Credits
+${data.credits}
 `;
 }
 // Export markdown
